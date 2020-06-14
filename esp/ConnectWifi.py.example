@@ -1,6 +1,9 @@
 def connect():
     import network
- 
+
+    ap_if = network.WLAN(network.AP_IF)
+    ap_if.active(False)
+
     ssid = "yourNetworkName"
     password =  "yourNetworkPassword"
  
