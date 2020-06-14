@@ -8,3 +8,13 @@ sym-lib-table
 
 #secrets here
 esp/ConnectWifi.py
+
+*.d
+*.o
+*.bin
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.sym
