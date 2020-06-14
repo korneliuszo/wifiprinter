@@ -1,3 +1,6 @@
 [submodule "kicad-ESP8266"]
 	path = kicad-ESP8266
 	url = https://github.com/jdunmire/kicad-ESP8266
+[submodule "dmbs"]
+	path = dmbs
+	url = https://github.com/abcminiuser/dmbs
