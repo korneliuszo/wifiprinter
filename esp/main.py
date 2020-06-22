@@ -22,5 +22,6 @@ while True:
             pass
         data=cl.read(10)
         if data == b'':
+            cl.close()
             break
         uart.write(data)
